@@ -1,8 +1,3 @@
-object paquete {
-    method estaPago() = true
-    method puedeSerEnviado(unMensajero, unDestino) = unDestino.puedePasar(unMensajero)
-}
-
 object puente {
     method puedePasar(unMensajero) = unMensajero.peso() <= 1000
 }
